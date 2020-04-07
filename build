@@ -1,2 +1,2 @@
 docker build -t iox-x86-secure-storage-demo .                                      
-ioxclient docker package iox-x86-secure-storage-demo . -n iox-x86-secure-storage-demo
+ioxclient docker package iox-x86-secure-storage-demo . -n iox-x86-secure-storage-demo --use-targz
