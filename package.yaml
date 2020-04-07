@@ -22,5 +22,4 @@ app:
   # Specify runtime and startup
   startup:
     rootfs: rootfs.tar
-    target: "/var/helloworld/helloworld"
-    
+    target: ['/bin/sh', 'iox-ss-stress-test.sh']    
