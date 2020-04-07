@@ -74,6 +74,8 @@ Delete done.
 
 It shows that the script uses REST API to request a token from the Secure Storage API, and then uses that token to store, get, list, and delete a secure object which in this case is a key called 'testKey' and content is 'testKeyContent'.
 
+The script rinse and repeats that process indefinitely.
+
 ## Poking around
 
 Using 'ioxclient' one can have access to the application console, which means getting access to a shell inside the running container. From there you can directly play with the API as the `curl` utility is installed.
